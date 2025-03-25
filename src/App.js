@@ -6,7 +6,7 @@ function App() {
   const [emails, setEmails] = useState([]);
 
   const fetchEmails = async () => {
-    const response = await axios.post("https://your-render-backend.com/fetch-emails", { email: userEmail });
+    const response = await axios.post("https://gmail-ai-summarizer-backend.onrender.com/fetch-emails", { email: userEmail });
     setEmails(response.data);
   };
 
