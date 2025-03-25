@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-3xl font-bold mb-4">📧 Priority Pulse - Email Assistant</h1>
+      <h1 className="text-3xl font-bold mb-4">📧 Priority Puls - Email Assistant</h1>
       <input
         className="p-2 border rounded"
         type="email"
